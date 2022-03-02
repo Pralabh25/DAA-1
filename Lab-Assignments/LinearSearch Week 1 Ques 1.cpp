@@ -9,7 +9,7 @@ int main()
     for (int j = 0; j < t; j++)
     {
         cout << "Test Case NO : " << j + 1 << endl
-             << "------------------" << endl;
+             << "" << endl;
 
         int n;
         cout << "Size of array : ";
@@ -17,9 +17,7 @@ int main()
 
         int A[n];
 
-        cout << "Enter Elements : ";
-        for (int i = 0; i < n; i++)
-            cin >> A[i];
+       
 
         int key, passes = 0, flag = 0;
         cout << "Enter Key : ";
